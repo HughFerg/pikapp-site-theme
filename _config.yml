@@ -1,11 +1,13 @@
 # Site settings
 title: Pi Kappa Phi Northeastern  
 email: your-email@domain.com
-url: https://example.github.io
+url: https://hughferg.github.io/pikapp-site-theme/
 description: "Ha haaaaa, what's crackin"
 keywords: "your keywords, separated by commas"
 skills: "Exceptional Leaders, Uncommon Opportunities"
 meta_author: Ferguson Hugh
+
+theme: freelancer
 
 # Google webmaster tools
 google_verify:
