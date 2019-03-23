@@ -61,3 +61,5 @@ credits: 'These cases are perfectly simple and easy to distinguish. In a free ho
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+theme: jekyll-theme-architect
