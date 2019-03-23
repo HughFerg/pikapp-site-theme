@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
+title: Pi Kappa Phi Northeastern  
 email: your-email@domain.com
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Ha haaaaa, what's crackin"
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "Exceptional Leaders, Uncommon Opportunities"
+meta_author: Ferguson Hugh
 
 # Google webmaster tools
 google_verify:
@@ -25,17 +25,17 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: 005596 #80B3FF
+  primary-rgb: "0, 85, 150" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Joesph Aoun 
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Lorem Ipsum
+  credits: South text 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -52,11 +52,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Northeastern University, Kappa Phi Chapter 
+  - line: Boston, MA
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.'
 
 # Build settings
 markdown: kramdown
