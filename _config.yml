@@ -1,8 +1,8 @@
 # Site settings
 title: Pi Kappa Phi Northeastern  
 email: your-email@domain.com
-url: ""
-baseurl: "hughferg.github.io/pikapp-site-theme"
+baseurl: ""
+xurl: "hughferg.github.io/pikapp-site-theme"
 description: "Ha haaaaa, what's crackin"
 keywords: "your keywords, separated by commas"
 skills: "Exceptional Leaders, Uncommon Opportunities"
