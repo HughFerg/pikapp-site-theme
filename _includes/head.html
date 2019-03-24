@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{ "/style.css" }}">
     <link rel="stylesheet" href="/assets/main.css">
 
+    <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
