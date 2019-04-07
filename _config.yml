@@ -1,8 +1,8 @@
 # Site settings
-title: Pi Kappa Phi Northeastern  
-email: your-email@domain.com
+title: Pi Kappa Phi Northeastern 
+email: hughferguson25@gmail.com
 baseurl: "https://hughferg.github.io/pikapp-site-theme/"
-url: "/"
+url: ""
 description: "Ha haaaaa, what's crackin"
 keywords: "your keywords, separated by commas"
 skills: "Exceptional Leaders, Uncommon Opportunities"
@@ -24,8 +24,8 @@ contact: static
 color:
   primary: 005596 #80B3FF
   primary-rgb: "0, 85, 150" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: E7A614 #FD6E8A
+  secondary-dark: 005596 
 
 # Footer settings
 footer:
