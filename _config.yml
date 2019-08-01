@@ -36,14 +36,14 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
   - title: instagram
-    url: http://instagram.com
+    url: https://www.instagram.com/northeasternpikapp/
   - title: facebook
-    url:
-  - title: github
-    url: http://github.com/hughferg
+    url: https://www.facebook.com/pikappaphinu/
+  # - title: github
+  #   url: http://github.com/hughferg
 
 # Postal address (add as many lines as necessary)
 address:
