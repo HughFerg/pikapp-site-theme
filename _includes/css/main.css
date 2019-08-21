@@ -454,3 +454,11 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.main-img-container {
+    display: flex;
+    justify-content: center;
+}
+.nav-link:hover {
+    color: #E7A614!important;
+}
