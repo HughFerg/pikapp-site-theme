@@ -462,3 +462,8 @@ footer .footer-below {
 .nav-link:hover {
     color: #E7A614!important;
 }
+
+.mission-statement-parent {
+    width: 30rem;
+    height: auto;
+}
