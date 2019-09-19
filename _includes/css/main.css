@@ -534,9 +534,18 @@ footer .footer-below {
 .rush-title {
     font-size: 5rem;
     text-transform: none;
-    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
 }
 
 footer div.footer-col {
     margin-bottom: 5px;
+}
+
+.rush-page-row {
+    padding-bottom: 40px; 
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
