@@ -152,6 +152,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Brandon, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
+    flex
 }
 
 .navbar a:focus {
@@ -169,6 +170,10 @@ header .intro-text .skills {
 .navbar-default, .navbar-inverse {
     border: 0;
     background-color: #005596;
+}
+
+.navbar .nav-container {
+    flex-wrap: nowrap;
 }
 
 section {
@@ -321,9 +326,6 @@ section.success {
     color: #005596;
 }
 
-;
-}
-
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
@@ -347,9 +349,6 @@ footer .footer-col {
 
 footer .footer-below {
     background-color: #005596;
-}
-
-;
 }
 
 .btn-social {
@@ -468,7 +467,7 @@ footer .footer-below {
     flex-direction: column;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 90rem;
+    height: 80rem;
     width: 100%;
 }
 .nav-link:hover {
@@ -495,7 +494,7 @@ footer .footer-below {
 .main-header-logo-container {
     padding: 2em;
     display: flex;
-    background-color: rgba(201, 200, 200, 0.794);
+    background-color: rgba(200, 200, 200, 0.794);
 }
 
 .main-header-logo {
@@ -508,9 +507,15 @@ footer .footer-below {
     z-index: 100;
 }
 
+.main-img-container {
+    background-image: url('img/pkp-collage.png');
+    width: 100%;
+    /* height: 100%; */
+}
+
 .header-row {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
 }
 
 .header-container {
@@ -534,10 +539,6 @@ footer .footer-below {
     font-size: 2rem;
 }
 
-.main-img-container {
-    background-image: url('img/pkp-collage.png');
-}
-
 .rush-title {
     font-size: 5rem;
     text-transform: none;
@@ -549,10 +550,18 @@ footer div.footer-col {
     margin-bottom: 5px;
 }
 
+footer .footer-copyright {
+   align-items: center;
+}
+
 .rush-page-row {
-    padding-bottom: 40px; 
-    padding-top: 20rem;
+    /* padding-bottom: 40px; 
+    padding-top: 20rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-brand {
+    max-width: 10%;
 }
