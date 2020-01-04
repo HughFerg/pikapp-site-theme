@@ -51,32 +51,37 @@
     <!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container">
-        <a class="navbar-brand nav-link" href="/"><img class="header-brand"
-                src="../img/PKP-StarShield-Logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav" style="flex-direction: row;">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="../#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/rush">Rush</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/brothers">Brothers</a>
-                </li>
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="../#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <!-- <div class="d-flex justify-content-between"> -->
+            <a class="navbar-brand" href="/">
+                <img class="header-brand" width="50" height="50" alt="" src="../img/PKP-StarShield-Logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav" style="font-size: 1.35rem;">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rush">Rush</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/brothers">Brothers</a>
+                    </li>
+                    <li class="nav-item page-scroll">
+                        <a class="nav-link" href="../#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+            </div>
+        <!-- </div> -->
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
@@ -87,13 +92,13 @@
         <div class="col-md-12 header-row">
             <div class="home-container container header-container">
                 <div class="row header-row" style="padding: 0;">
-                    <div class="col-lg-12 main-img-container">
+                    <!-- <div class="col-lg-12 main-img-container"> -->
                         <div class="main-header-logo-container">
                             <div class="main-header-logo">
-                                <img src="../img/PKP-namestarshield.png">
+                                <img src="../img/pkp-collage-composite.jpg">
                             </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
             <!-- <div class="row" style="padding-bottom: 40px;">
@@ -116,13 +121,13 @@
     </span>
 </div>
 <div class="rush-page-row row" style="padding-top: 20px;">
-    <p style="color: black">At this time, we have concluded our 2019 Fall rush. Spring rush events will be posted as they become available.</p>
+    <!-- <p style="color: black">At this time, we have concluded our 2019 Fall rush. Spring rush events will be posted as they become available.</p> -->
 </div>
     
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
-        <div class="container">
-            <div class="row" style="padding-bottom: 40px;">
+        <div class="portfolio-container">
+            <div class="row" style="padding: 40px;">
                 <div class="col-lg-12 text-center">
                     <!-- <h2>Title</h2> -->
                     <hr class="star-primary">
@@ -176,23 +181,47 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <p>We are a chapter founded on __, __, and __. Pi Kappa Phi is the newest chapter to join greek life at Northeastern.
-                    We established our charter in the Spring of 2019, and have been working hard to establish foundational
-                    values and practices that will leave our chapter as one of the best in the Greek community.</p>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="row justify-content-center">
+                    <h2 style="padding: 2rem; font-weight: 600;">About Us</h2>
+                    <p style="text-align: center; font-size: 18px;">The Northeastern Associate Chapter of Pi Kappa Phi
+                        was
+                        founded in early
+                        2019 and has since grown to
+                        69 initiated brothers.
+                        We are a self-governed, social fraternity which prides itself on its commitment to the community
+                        and
+                        philanthropic endeavors.
+                        Much of our efforts are directed at our national philanthropic foundation, The Ability
+                        Experience,
+                        which creates experiences that
+                        promote the abilities of all people and works to eliminate labels that have unfairly come to
+                        define
+                        others.
+                        We also participate in many community service and fundraising initiatives, such as the annual
+                        Relay for Life fundraiser and other smaller events on campus.
+                    </p>
+                    <a href="/about" class="btn btn-lg btn-primary" style="font-size: 1.5rem; padding: 1rem;">Learn
+                        More</a>
+                </div>
             </div>
-            <div class="col-md-6">
-                <div class="mission-statement-parent">
-                    <img class="mission-statement-img" src="../img/pkp-mission-statement.png">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img class="mission-statement-img" src="../img/aditya-pkp.png">
+            </div>
+        </div>
+        <div class="row about-row">
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <img class="" src="../img/pkp-mission-statement.png">
+            </div>
+            <div class="col-md-4 d-flex justify-content-md-around align-items-center">
+                <div class="row d-flex flex-column">
+                    <a href="https://pikapp.org/" target="_blank" class="btn btn-lg btn-outline-light" style="font-size: 1.5rem; padding: 1.5rem;">Our National Organization</a>
+                    <a href="https://hugh-ferguson.com" target="_blank" class="btn btn-lg btn-primary mt-4" style="font-size: 1.5rem; padding: 1.5rem;">Letter
+                        to
+                        the Parents</a>
                 </div>
             </div>
         </div>
-        <div class="row about-row-2">
-            <div class="col-md-8 col-lg-offset-2 text-center">
-                <a href="https://hugh-ferguson.com" class="btn btn-lg btn-outline">Letter to the Parents</a>
-            </div>
-        </div>
-    </div>
     </div>
 </section>
 
