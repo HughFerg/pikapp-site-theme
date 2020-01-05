@@ -454,14 +454,16 @@ footer .footer-below {
 }
 
 .main-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 80rem;
     width: 100%;
+    padding-top: 70px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* min-height: 600px; */
 }
 .nav-link:hover {
     color: #E7A614!important;
@@ -501,14 +503,7 @@ footer .footer-below {
     background-repeat: no-repeat;
     align-items: stretch;
     display: block;
-    min-width: 100%;
     z-index: 100;
-}
-
-.main-img-container {
-    background-image: url('img/pkp-collage-composite.jpg');
-    width: 100%;
-    /* height: 100%; */
 }
 
 .header-container {
