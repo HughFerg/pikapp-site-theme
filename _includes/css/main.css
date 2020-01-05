@@ -461,9 +461,6 @@ footer .footer-below {
     background-attachment: fixed;
     background-position: center;
     height: auto;
-    /* background-size: contain;
-    background-repeat: no-repeat; */
-    /* min-height: 600px; */
 }
 .nav-link:hover {
     color: #E7A614!important;
