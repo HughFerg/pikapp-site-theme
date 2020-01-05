@@ -462,15 +462,12 @@ footer .footer-below {
 
 .main-img-container {
     width: 100%;
-    padding-top: 70px;
+    padding-top: 50px;
     display: flex;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     height: auto;
-    /* background-size: contain;
-    background-repeat: no-repeat; */
-    /* min-height: 600px; */
 }
 .nav-link:hover {
     color: #E7A614!important;
@@ -535,7 +532,8 @@ footer .footer-below {
 }
 
 .rush-title {
-    font-size: 5rem;
+    /* font-weight: 500; */
+    font-size: 4.5em;
     text-transform: none;
     width: 100%;
     text-align: center;
