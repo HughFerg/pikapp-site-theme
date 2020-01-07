@@ -1,7 +1,7 @@
 # Site settings
 title: Pi Kappa Phi Northeastern 
 email: hughferguson25@gmail.com
-baseurl: "https://hughferg.github.io/pikapp-site-theme/"
+baseurl: "https://hughferg.github.io/pikapp-site-theme"
 url: ""
 description: "The official website of Pi Kappa Phi at Northeastern University"
 keywords: "your keywords, separated by commas"
