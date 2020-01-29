@@ -1,3 +1,3 @@
 [submodule "secret-calendar"]
 	path = secret-calendar
-	url = ./secret-calendar
+	url = https://github.com/HughFerg/Password-protection-for-static-pages.git
