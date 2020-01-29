@@ -17,8 +17,7 @@
 
     .box {
         border-radius: 3px;
-        background: rgba(101, 101, 101, 0.7);
-        margin: auto;
+        /* background: rgba(101, 101, 101, 0.7); */
         padding: 12px;
     }
 
@@ -54,22 +53,63 @@
         font-weight: 350;
         font-size: 4.5rem;
     }
+
     .title-text-subhead {
         color: white;
         font-weight: 300;
     }
+
+    /* Responsive iFrame
+    .responsive-iframe-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .responsive-iframe-container iframe,
+    .vresponsive-iframe-container object,
+    .vresponsive-iframe-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+    } */
+
+    @media (max-width: 550px) {
+        .big-container {
+            display: none;
+        }
+        .title-text {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .title-text-subhead {
+            margin: 0;
+        }
+    }
+    @media (min-width: 550px) {
+        .small-container {
+            display: none;
+        }
+    }
+</style>
 </style>
 
 <body>
     <div id="loginbox" class="lightbox">
         <div class="horizontal">
             <div class="vertical">
-               <h1 class="title-text">Pi Kappa Phi Calendar</h1>
-               <h2 class="title-text-subhead">(Brothers Only 🤫)</h2>
-                <div class="box">
+                <h1 class="title-text">Pi Kappa Phi Calendar</h1>
+                <h2 class="title-text-subhead">(Brothers Only 🤫)</h2>
+                <div class="box responsive-iframe-container big-container">
                     <iframe
                         src="https://calendar.google.com/calendar/embed?src=pikapp.nu%40gmail.com&ctz=America%2FNew_York"
                         style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="box responsive-iframe-container small-container">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23F6BF26&amp;ctz=America%2FNew_York&amp;src=aHVnaGZlcmd1c29uMjVAZ21haWwuY29t&amp;src=cGlrYXBwLm51QGdtYWlsLmNvbQ&amp;color=%23d20000&amp;color=%23DD4477&amp;mode=AGENDA"
+                        style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
